@@ -1,0 +1,17 @@
+# NodeJS dependency cache 
+node_modules/ 
+package-lock.json
+# Untrack .env (but NOT .env.example)
+.env
+.env.*
+!.env.example
+# Keep blank 'example' file
+!example 
+# SASS/SCSS folder (but NOT example)
+sass/*
+!sass/example 
+scss/*
+!scss/example 
+# Output folder(but NOT example)
+out/*
+!out/example 
